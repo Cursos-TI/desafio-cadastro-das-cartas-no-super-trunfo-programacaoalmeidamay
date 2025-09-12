@@ -28,10 +28,45 @@ int main(){
     scanf("%s", codigo1);
 
     printf("Nome da cidade:\n");
-    scanf("%[^\n]", nomecidade1);
+    scanf("%d", nomecidade1);
 
-    printf("populacao\n:");
+    printf("populacao:\n");
     scanf("%d", populacao1);
+
+    printf("Area (em km2):\n");
+    scanf("%f", &area1);
+
+    printf("PIB:\n");
+    scanf("%f", &pib1);
+
+    printf("Numero de pontos turisticos:\n");
+    scanf("%d", &pontosturisticos1);
+
+    // Entrada de dados carta 2
+
+    printf("Digite os dados da Carta 2:\n");
+    printf("Estado (A-H):");
+    scanf("%c", &estado2);
+
+    printf("Codigo da carta (ex: B02):\n");
+    scanf("%s", &codigo2);
+
+    printf("Nome da cidade\n");
+    scanf("%c", &cidade2);
+
+    printf("Populacao:\n");
+    scanf("%d", &populacao2);
+
+    printf("Area (em km2):\n");
+    scanf("%f", &area2);
+
+    printf("PIB:\n");
+    scanf("%f", &pib2);
+
+    printf("Numero de pontos turisticos:\n");
+    scanf("%d", &pontosturisticos);
+
+
 
 }
 
